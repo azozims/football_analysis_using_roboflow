@@ -3,7 +3,17 @@
 
 hello there
 
-The goal of this project is to detect and track players, referees, and footballs in a video using YOLO, one of the best AI object detection models available. We will also train the model to improve its performance. Additionally, we will assign players to teams based on the colors of their t-shirts using Kmeans for pixel segmentation and clustering. With this information, we can measure a team's ball acquisition percentage in a match. We will also use optical flow to measure camera movement between frames, enabling us to accurately measure a player's movement. Furthermore, we will implement perspective transformation to represent the scene's depth and perspective, allowing us to measure a player's movement in meters rather than pixels. Finally, we will calculate a player's speed and the distance covered. This project covers various concepts and addresses real-world problems, making it suitable for both beginners and experienced machine learning engineers.
+We’re developing a smart football analysis system that can detect and track players, referees, and the ball using YOLO one of the top object detection models out there. Our goal is to enhance the models accuracy by training it on custom data.
+
+To automatically identify which team a player belongs to, we will use KMeans clustering to analyze the color of their jerseys so no manual labeling is needed.
+
+From there, we will track ball possession, giving us insights into which team controls the game over time.
+
+We are also going a step further by applying optical flow techniques to account for camera movement. This way, we can more accurately measure how players move on the field.
+
+To convert pixel-based movement into real-world distances, we will apply perspective transformation letting us calculate a players speed and the total distance they cover in meters.
+
+This project ties together several powerful concepts from computer vision and machine learning, and its a great real-world challenge for both beginners and experienced engineers.
 
 ![image](https://github.com/user-attachments/assets/024fd3e2-7ca2-472a-8422-0ea2cbe4f3ca)
 
