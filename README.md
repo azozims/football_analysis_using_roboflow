@@ -10,10 +10,6 @@ The goal of this project is to detect and track players, referees, and footballs
 
 I got my project and dataset from Roboflow 
 
-Trained Models:
-
-Trained Yolo v5
-
 To run this project, you need to have the following requirements installed:
 
 Python 3.x
